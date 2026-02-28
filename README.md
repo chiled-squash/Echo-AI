@@ -3,6 +3,7 @@
 ## Features
 - Open Kimi / ChatGPT / Gemini in new tabs with one click.
 - When you send a prompt in one supported site, the prompt is broadcast to other enabled sites.
+- Sync New Chat / New Conversation button events across supported sites (creating a new session in one site will trigger new session creation in others).
 - All settings and runtime state are stored in `chrome.storage.local`.
 
 ## Install
