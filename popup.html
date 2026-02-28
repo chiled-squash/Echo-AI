@@ -1,0 +1,35 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Chat Sync</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>AI Chat Sync</h1>
+
+    <section class="block">
+      <label class="row switch-row">
+        <input type="checkbox" id="sync-enabled" />
+        <span>Enable sync broadcast</span>
+      </label>
+      <p class="hint">When enabled, sending in one AI page will broadcast to other enabled sites.</p>
+    </section>
+
+    <section class="block" id="site-list"></section>
+
+    <section class="block buttons">
+      <button id="open-sites" type="button">Open selected in new tabs</button>
+      <button id="refresh" type="button" class="secondary">Refresh status</button>
+    </section>
+
+    <section class="block status">
+      <div id="status-text">Loading...</div>
+      <div id="last-broadcast" class="hint"></div>
+    </section>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
