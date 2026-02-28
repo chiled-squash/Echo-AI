@@ -17,3 +17,5 @@
   - https://chatgpt.com/
   - https://gemini.google.com/
 - Selectors of chat inputs/buttons can change over time; if one site updates DOM structure, selector updates may be needed in `content.js`.
+
+<img width="616" height="616" alt="image" src="https://github.com/user-attachments/assets/7146a9c9-d73c-4965-89cc-27d033ecd732" />
